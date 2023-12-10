@@ -1,0 +1,17 @@
+{
+    "config": [
+      {
+        "project_type": "eth:track_wallets_deployed",
+        "projects":[
+          ],
+        "preload_tasks":[
+          "block_transactions"
+        ],
+        "bulk_mode": true,
+        "processor":{
+          "module": "snapshotter.modules.computes.track_wallets_deployed",
+          "class_name": "TrackingWalletDeploymentsProcessor"
+        }
+      }
+    ]
+  }
